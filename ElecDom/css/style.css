@@ -188,6 +188,101 @@ main .Bienvenida img{
     float: left;
 }
 
+.Ofertas .oferta4 img{
+    width: 50%;
+    height: 50%;
+    /* center the image */
+    margin-top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Ofertas .oferta4 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Ofertas .oferta4 button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.oferta4{
+    width: 33.33%;
+    height: 500px;
+    background-color: rgb(142, 142, 236);
+    float: left;
+}
+
+.Ofertas .oferta5 img{
+    width: 50%;
+    height: 50%;
+    /* center the image */
+    margin-top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Ofertas .oferta5 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Ofertas .oferta5 button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.oferta5{
+    width: 33.33%;
+    height: 500px;
+    background-color: rgb(142, 142, 236);
+    float: left;
+}
+
+.Ofertas .oferta6 img{
+    width: 50%;
+    height: 50%;
+    /* center the image */
+    margin-top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Ofertas .oferta6 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Ofertas .oferta6 button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.oferta6{
+    width: 33.33%;
+    height: 500px;
+    background-color: rgb(142, 142, 236);
+    float: left;
+}
+
+
+
 .Tutorial{
     width: 80%;
     height: 400px;
