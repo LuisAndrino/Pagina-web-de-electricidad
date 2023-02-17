@@ -1,1 +1,243 @@
-<h4>compras</h4>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElecDom</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="compras.css">
+</head>
+<body>
+    <header>
+        <div class="ancho">
+            <div class="logo">
+                <img src="../img/Mfcf242a5a314b28aa0de879cde9f3be21674774496738.jpg" alt="ElecDom">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/ElecDom/index.html">Inicio</a></li>
+                    <li><a href="/ElecDom/paginas/productos.html">Productos</a></li>
+                    <li><a href="/ElecDom/paginas/tiendas.html">Tienda</a></li>
+                    <li><a href="/ElecDom/paginas/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="boton">
+                <button type="button" onclick="window.location.href='compras.html'">Carrito de compras</button>
+                <button type="button" onclick="window.location.href='login.html'">Login</button>
+            </div>
+        </div>
+    </header>
+    <main class="carrito">
+        <article class="Bienvenida">
+            <img src="../img/herramientas-para-electricista.png" alt="ElecDom">
+        </article>
+
+        <article class="tusDatos">
+            <p><h1>Paso 1: Tus datos</h1></p>
+            <br>
+            <section class="registro">
+                <table class="Tregistro">
+                    <tr>
+                        <th class="titulo">Registro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="cliente" name="cliente" value="cliente">
+                            <label for="cliente">Guardar mis datos</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="inv" name="cliente" value="cliente">
+                            <label for="inv">Comprar como invitado</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="ya" name="cliente" value="cliente">
+                            <label for="ya">Ya tengo cuenta</label>
+                        </td>
+                    </tr>
+                </table>
+                
+                <table class="Tdetalles">
+                    <tr>
+                        <th class="titulo">Tus datos</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label style="color: red;">*</label>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label style="color: red;">*</label>
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label style="color: red;">*</label>
+                            <label for="correo">Correo</label>
+                            <input type="text" id="correo" name="correo" placeholder="Correo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label style="color: red;">*</label>
+                            <label for="telefono">Telefono</label>
+                            <input type="text" id="telefono" name="telefono" placeholder="Telefono">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="direccion">Direccion</label>
+                            <input type="text" id="direccion" name="direccion" placeholder="Direccion">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <label>Departamento</label>
+                           <select name="seleccionar">
+                            <option value="0">Guatemala</option>
+                            <option value="1">Chiquimula</option>
+                            <option value="2">El Progreso</option>
+                            <option value="3">Escuintla</option>
+                           </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="ciudad">Ciudad</label>
+                            <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="codigo">Codigo Postal</label>
+                            <input type="text" id="codigo" name="codigo" placeholder="Codigo Postal">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="NIT">NIT</label>
+                            <input type="NIT" id="NIT" name="NIT" placeholder="NIT">
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </article >
+        <article class="tuCompra">
+            <p><h1>Paso 2: Tu compra</h1></p>
+            <br>
+            <section class="registro">
+                <table class="Tregistro">
+                    <tr>
+                        <th class="envio">Metodo de envio</th>
+                        <th class="pago">Metodo de pago</th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="radio" id="cargo" name="cliente1">
+                            <label for="cargo">Cargo expreso</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="contra" name="cliente2">
+                            <label for="contra">Pago contraentrega</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="bod" name="cliente1">
+                            <label for="bod">Recoger en bodega</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="trans" name="cliente2">
+                            <label for="trans">Transferencia bancaria</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="rap" name="cliente1">
+                            <label for="rap">Entrega rapida</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="tarj" name="cliente2">
+                            <label for="tarj">Tarjeta de credito</label>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <table class="Tregistro">
+                    <tr>
+                        <th class="">No.</th>
+                        <th class="">Imagen</th>
+                        <th class="">Producto</th>
+                        <th class="">Cantidad</th>
+                        <th class="">Precio U.</th>
+                        <th class="">Subtotal</th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="1">1</label>
+                        </td>
+                        <td>
+                            <img src="../img/Bombilla-Incandescente-100W-Opaca-Sylvania_97df9c5.png" alt="1" width="100px" height="100px">
+                        </td>
+                        <td>
+                            <label for="1">Bombilla</label>
+                        </td>
+                        <td>
+                            <label for="1">1</label>
+                        </td>
+                        <td>
+                            <label for="1">Q50</label>
+                        </td>
+                        <td>
+                            <label for="1">Q50</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="1">2</label>
+                        </td>
+                        <td>
+                            <img src="../img/HA_12351_grande.png" alt="1" width="100px" height="100px">
+                        </td>
+                        <td>
+                            <label for="1">1</label>
+                        </td>
+                        <td>
+                            <label for="1">Alicate</label>
+                        </td>
+                        <td>
+                            <label for="1">Q20</label>
+                        </td>
+                        <td>
+                            <label for="1">Q70</label>
+                        </td>
+                    </tr>
+
+                   
+                </table>
+            </section>
+
+            <button type="submit" class="btn">Comprar</button>
+        
+        </article>
+        
+    </main>
+    <footer>
+        <p>© 2023 ElecDom. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
