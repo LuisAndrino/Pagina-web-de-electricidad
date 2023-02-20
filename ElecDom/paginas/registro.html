@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElecDom</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <header>
+        <div class="ancho">
+            <div class="logo">
+                <img src="../img/Mfcf242a5a314b28aa0de879cde9f3be21674774496738.jpg" alt="ElecDom">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/ElecDom/index.html">Inicio</a></li>
+                    <li><a href="/ElecDom/paginas/productos.html">Productos</a></li>
+                    <li><a href="/ElecDom/paginas/tiendas.html">Tienda</a></li>
+                    <li><a href="/ElecDom/paginas/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="boton">
+                <button type="button" onclick="window.location.href='compras.html'">Carrito de compras</button>
+                <button type="button" onclick="window.location.href='login.html'">Login</button>
+            </div>
+        </div>
+    </header>
+    <main class="productos">
+    <h1>Registro</h1>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" placeholder="Correo">
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña">
+        <label for="confirmar">Confirmar contraseña</label>
+        <input type="password" id="confirmar" name="confirmar" placeholder="Confirmar contraseña">
+        <button type="submit">Registrarse</button>
+    </form>
+    </main>
+    <footer>
+        <p>© 2023 ElecDom. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
